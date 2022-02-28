@@ -1,0 +1,43 @@
+.Service-Button {
+  max-width: 25%;
+  color: #fff;
+  -webkit-box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%),
+    0 9px 46px 8px rgb(0 0 0 / 12%), 0 11px 15px -7px rgb(0 0 0 / 20%);
+  box-shadow: 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%),
+    0 11px 15px -7px rgb(0 0 0 / 20%);
+  padding: 2.4em 3em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.Service-Button.Active {
+    border: 2px solid #fff;
+}
+
+.Service-Button-Name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.Netflix {
+    background-color: #e50914;
+}
+.Spotify {
+    background-color: #1db954;
+}
+.HBO {
+    background: rgb(2,0,36);
+    background: linear-gradient(25deg, rgba(2,0,36,1) 4%, rgba(110,7,121,1) 48%, rgba(14,3,30,1) 90%);
+}
+.Youtube {
+    background-color: #d00000;
+}
+
+@media screen and (max-width: 600px) {
+    .Service-Button {
+        max-width: 75%;
+        margin: 0;
+    }
+}
